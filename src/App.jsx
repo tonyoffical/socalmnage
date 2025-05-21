@@ -12,7 +12,7 @@ function App() {
   const [showPrivacyPolicy, setShowPrivacyPolicy] = useState(false);
 
   const handlePost = async () => {
-    await axios.post("http://localhost:5000/post", {
+    await axios.post("https://socail-backend-1.onrender.com/post", {
       text,
       platforms,
     });
